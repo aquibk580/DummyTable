@@ -1,0 +1,127 @@
+.white {
+  background-color: white;
+}
+.gray {
+  background-color: rgb(230, 224, 224);
+}
+.flex {
+  display: flex;
+}
+.row {
+  flex-direction: row;
+}
+.col {
+  flex-direction: column;
+}
+.head {
+  background-color: #b6e1ff
+}
+.hps {
+  align-items: center;
+  justify-content: space-around;
+}
+.hp {
+  margin-right: 230px;
+}
+table {
+  border-collapse: collapse;
+  width: 80%;
+  place-self: center;
+}
+th{
+  padding: 10px 15px;
+  padding-right: 30px;
+  padding-bottom: 20px;
+}
+td{
+  padding: 6px 15px;
+  padding-bottom: 15px;
+}
+tr {
+  box-shadow: 0 10px 0 white, 0 -10px 0 white; /* Adjust the second value (10px) for the desired margin */
+}
+.filters input {
+  padding: 10px 10px;
+  padding-right: 50px;
+  border-radius: 6px;
+  outline: none;
+  border-width: 1px;
+}
+.filters {
+  align-items: center;
+  justify-content: space-evenly;
+}
+.view-main {
+  align-items: center;
+  position: relative;
+}
+.view {
+  border: 1px solid black;
+  border-radius: 6px;
+  padding: 7.5px 6px;
+  padding-right: 12px;
+  cursor: pointer;
+  margin: 0 10px;
+}
+.filter-icon {
+  padding: 0 6px;
+}
+.drop-down {
+  background-color: rgb(239, 218, 171);
+  box-shadow: 0 0 6px 0;
+  border-radius: 6px;
+  list-style: none;
+  font-weight: 700;
+  align-items: center;
+  justify-content: center;
+  margin: 0;
+  max-width: fit-content;
+  font-size: small;
+  padding: 0;
+  padding-bottom: -50px;
+  height: 50px;
+  width: 100px;
+  border: 1px solid black;
+  position: absolute;
+  top: 37px;
+}
+
+.footer {
+  margin: 20px 150px;
+  place-self: end;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  bottom: 0px;
+}
+
+.footer input {
+  height: 30px;
+  width: 50px;
+  padding: 0 5px;
+  margin: 0 10px;
+  outline: none;
+  border: 1px solid black;
+  border-radius: 4px;
+}
+.left-arrow {
+  padding: 6px 15px;
+  border-radius: 4px;
+  border: 1px solid black;
+  margin: 0 5px;
+  cursor: pointer;
+}
+.right-arrow {
+  padding: 6px 15px;
+  border-radius: 4px;
+  border: 1px solid black;
+  margin: 0 5px;
+  cursor: pointer;
+}
+
+.download{
+  border-radius: 6px;
+  cursor: pointer;
+  padding: 9.5px 20px;
+  border: 1px solid black;
+}
